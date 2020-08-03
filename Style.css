@@ -1,0 +1,257 @@
+body {
+   font-size: 3.2vw;
+   background-color: #f4f4f4
+}
+
+.form-control {
+    padding-left: 10px;
+    border: 0;
+    border-bottom: 1px solid #212121;
+    border-radius: 0;
+    background-color: transparent; 
+    box-shadow: none;
+    outline: 0 none transparent;
+    -webkit-appearance:none;
+ }
+
+textarea {
+    margin-top: 40px;
+    min-height: 200px;
+    resize: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #e1e1e1;
+}
+
+::-moz-placeholder,
+::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #212121;
+}
+
+.header {
+    position: center;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 5;
+    font-family: Helvetica;
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+    display: flex;
+} 
+.navbar-nav > li > a {
+    padding: 5px 0;
+    font-weight: 600;
+    color: #212121;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.25s ease-in-out;
+    -moz-transition: border-color 0.25s ease-in-out;
+    -webkit-transition: border-color 0.25s ease-in-out;
+    -o-transition: border-color 0.25s ease-in-out;
+    -ms-transition: border-color 0.25s ease-in-out;
+}
+#navbarNav {
+    padding: 30px;
+    display: flex;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 5;
+    padding: 5px 0;
+}
+
+.navbar-nav > li + li > a {
+    margin: center;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a,
+.nav > li > a:hover,
+.nav > li.active > a {
+    background-color: transparent;
+    border-bottom: 2px solid #212121;
+}
+
+.job-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 1;
+} 
+
+.site-main {
+    position: center;
+    margin-bottom: 100px;
+    background-color: #fff;
+    z-index: 1;
+}
+.site-section {
+   padding-top: 120px;
+}
+
+.site-section h2{
+    font-size: 40
+    margin:0;
+    font-weight: bold;
+}
+.site-section h3 {
+    font-size: 36px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.site-section p {
+    margin-bottom: 35px;
+}
+.section-skills {
+    padding-bottom: 120px;
+}
+.skill + .skill {
+    margin-top: 50px;
+}
+.skill h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.progress {
+    height: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black;
+    box-shadow: none;
+}
+
+.progress-bar {
+    background-color: black;
+}
+
+.progressbar {
+    color: black;
+}
+
+.section-services {
+    position: relative;
+    padding-top: 220px;
+}
+
+.section-services:before {
+    content: '';
+    background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+    width: 100%;
+    height: 400px; 
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.overlay:after {
+    content: '';
+    width: 100%;
+    height: 400px; 
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.section-services {
+    position: relative;
+    padding-top: 220px;
+}
+
+.section-services .container {
+    padding: 120px 100px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.service h4 {
+    margin: 25px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service p {
+    color: #000;
+    margin-bottom: 0;
+}
+section-form {
+    padding-bottom: 120px;
+}
+.section-form .btn {
+    margin-top: 40px;
+}
+.btn {
+    min-width: 145px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: box-shadow 0.25s ease-in-out;
+    -moz-transition: box-shadow 0.25s ease-in-out;
+    -webkit-transition: box-shadow 0.25s ease-in-out;
+    -o-transition: box-shadow 0.25s ease-in-out;
+    -ms-transition: box-shadow 0.25s ease-in-out;
+}
+
+.btn-fill {
+    color: black;
+    background-color: grey;
+}
+
+.btn-border {
+    background-color: transparent;
+    color: #212121;
+    border: 1px solid #212121; 
+}
+
+.btn-fill:hover,
+.btn-fill:focus {
+    color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+#footer{
+  padding: 30px;
+  background: rgba(240, 240, 240);
+  color: black;
+}
+#footer a {
+  color: black;
+  font-size: 20px;
+}
+#footer a:hover {
+  color: white;
+}
+
+.carousel {
+    padding: 8px 24px
+    margin: 10px;
+}
